@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0;
+    background-image: url('bgimg1.png');
+    background-size: 100% 110%;
+}
+
+p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.outer-div{
+    width: 80%;
+    margin: 15% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-pic-div{
+    border-radius: 100%;
+    background-color: white;
+    width: 94px;
+    height: 94px;
+    margin-bottom: 8%;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name p{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.intro-text{
+    margin: 1% auto 5% auto;
+    width: 60%;
+    font-size: 0.8rem;
+}
+.intro p{
+    margin: 0;
+}
+
+.intro-text p{
+    font-size: 0.9rem;
+}
+
+.linktree{
+    width: 96%;
+}
+
+.linktree-btn{
+    width: 100%;
+    border-radius: 8px;
+    border-color: white;
+    background: transparent;
+    border-style: solid;
+    border-width: 2px;
+    color: white;
+    margin: 4% auto;
+    padding: 5% 2%;
+    font-size: 0.9rem;
+}:hover{
+    color: bisque;
+    border-color: bisque;
+}
+
+.sm-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.fab{
+    color: white;
+    font-size: 1.4rem;
+}:hover{
+    color: bisque;
+}
