@@ -1,0 +1,28 @@
+body{
+    background-image: url('FinalCover.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.intro-text p{
+    font-family: 'Noto Serif Devanagari', serif;
+    font-size: 1.25rem;
+}
+.linktree-btn:hover{
+    color: #111824;
+    border-color: #111824;
+}
+
+.fab:hover{
+    color: #111824;
+}
+
+:hover{
+    color: #111824;
+}
+
+@media screen and (min-width:320px) and (max-width:768px){
+    .intro-text{
+        width: 90%;
+    }
+}
